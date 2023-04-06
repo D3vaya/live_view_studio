@@ -20,6 +20,7 @@ defmodule LiveViewStudioWeb.Router do
     get "/", PageController, :home
 
     live "/light", LightLive
+    live "/slider", SliderLive
 
     live "/sandbox", SandboxLive
     live "/sales", SalesLive
