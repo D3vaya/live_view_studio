@@ -21,7 +21,7 @@ defmodule LiveViewStudioWeb.BoatsLive do
     <.promo>
       Save 25% on rentals!
       <:legal>
-        <.exclamation_circle /> Limit 1 per party
+        <.icon name="hero-exclamation-circle" /> Limit 1 per party
       </:legal>
       Mike
     </.promo>
