@@ -22,6 +22,19 @@ defmodule LiveViewStudio.Donations do
   end
 
   @doc """
+  Returns the length donations.
+
+  ## Examples
+
+      iex> donation_count()
+      1
+  """
+
+  def donation_count do
+    Repo.aggregate(Donation, :count, :id)
+  end
+
+  @doc """
   Returns a list of donations based on the given `options`.
 
   Example options:
